@@ -47,7 +47,11 @@ Data sources retain their respective rights. This repository is an independent h
 
 ## GitHub and phone access
 
-GitHub Actions refreshes data daily at 10:15 UTC, validates history, runs tests and commits changed data. Failures stop publication. GitHub Pages publishes `dist/` after pushes and successful refreshes. Schedules are best-effort; inspect Actions if data is stale. There is no background process running in your phone. The initial private Sites deployment is a snapshot; the GitHub Pages URL follows automated updates. No paid services or secrets are required for Pages.
+There is no daily refresh schedule. Click **Refresh latest data** on the page to fetch the official monthly archive and recent results through the Vercel `/api/latest` endpoint, validate complete coverage, rerun all model comparisons, score saved predictions, and generate the next forecast. The server uses the bundled validated history as its historical base and appends new archived/recent draws; it checks overlapping recent official records for disagreements.
+
+The page retains the refreshed data and forward ledger in this browser's local storage. Records do not sync between devices. Export experiment data for a backup. If a fetch, validation or computation fails, the current page results remain intact and the button allows retry. Browser storage failures are reported. Server requests have timeouts and do not accept arbitrary upstream URLs. No credentials are exposed to the browser.
+
+GitHub Pages publishes source updates on push. The optional GitHub Actions manual workflow remains available to refresh the committed dataset; it has no timer. The Vercel deployment supplies the on-demand endpoint. The earlier private Sites deployment is an initial snapshot; use the GitHub Pages URL for the current app.
 
 ## Adding games
 
