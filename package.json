@@ -1,0 +1,1 @@
+{"name":"numeris-pattern-lab","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test","analyze":"node scripts/analyze.mjs","dev":"python3 -m http.server 8080 --directory dist","refresh":"python3 scripts/import_history.py && node scripts/analyze.mjs"}}
