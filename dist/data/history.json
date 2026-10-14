@@ -1,24 +1,10 @@
 {
-  "fetchedAt": "2026-10-14T22:51:20.371289+00:00",
+  "fetchedAt": "2026-10-14T22:56:47.537425+00:00",
   "sources": [
     "https://www.wclc.com/display-on/display-on-downloads/lotto-max-since-inception.htm",
     "https://www.wclc.com/winning-numbers/lotto-max-extra.htm"
   ],
   "corrections": [
-    {
-      "date": "2026-03-03",
-      "field": "numbers[6]",
-      "raw": 61,
-      "value": 31,
-      "source": "https://www.lotterypost.com/results/zz/lottomax/extradraws/2026/3/3"
-    },
-    {
-      "date": "2022-01-25",
-      "field": "bonus",
-      "raw": 374,
-      "value": 37,
-      "source": "https://www.lotto.net/canada-lotto-max/numbers/january-25-2022"
-    },
     {
       "date": "2019-12-31",
       "field": "date",
@@ -38,6 +24,20 @@
       "field": "row",
       "value": "20 24 31 33 36 41 49 + 50",
       "source": "https://www.lotto.net/canada-lotto-max/numbers/november-26-2024"
+    },
+    {
+      "date": "2026-03-03",
+      "field": "numbers[6]",
+      "raw": 61,
+      "value": 31,
+      "source": "https://www.lotterypost.com/results/zz/lottomax/extradraws/2026/3/3"
+    },
+    {
+      "date": "2022-01-25",
+      "field": "bonus",
+      "raw": 374,
+      "value": 37,
+      "source": "https://www.lotto.net/canada-lotto-max/numbers/january-25-2022"
     }
   ],
   "archiveSha256": "609ceb28df6c3c5af6daf6e3bd326750cc71a635b0f6d167fd0efa9c467b24f5",
